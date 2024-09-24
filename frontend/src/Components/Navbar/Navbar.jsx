@@ -28,7 +28,7 @@ const Navbar = () => {
           className="nav-logo"
         >
           <img src={logo} alt="" />
-          <p>QUICKMART</p>
+          <p>QUICKCART</p>
         </Link>
         <img
           onClick={dropdown_toggle}
