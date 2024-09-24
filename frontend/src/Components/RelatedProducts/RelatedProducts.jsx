@@ -7,7 +7,7 @@ const RelatedProducts = ({ category, id }) => {
 
   useEffect(() => {
     console.log("Category:", category);
-    fetch("https://ecommerce-l0a4.onrender.com/relatedproducts", {
+    fetch("https://react-cart-tc9e.onrender.com/relatedproducts", {
       method: "POST",
       headers: {
         "Content-Type": "application/json", // Set headers

@@ -38,7 +38,7 @@ const AddProduct = () => {
 
       if (imgUrl) {
         product.image = imgUrl;
-        await fetch("https://ecommerce-l0a4.onrender.com/addproduct", {
+        await fetch("https://react-cart-tc9e.onrender.com/addproduct", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
